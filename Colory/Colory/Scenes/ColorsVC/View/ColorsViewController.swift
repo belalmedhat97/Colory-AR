@@ -67,5 +67,11 @@ extension ColorsViewController:UICollectionViewDelegate,UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 0, left: 15, bottom: 0, right: 15)
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc =  CameraViewController(nibName:"CameraViewController",bundle:nil)
+        let color = UIColor(hexString: colorsDataSource[indexPath.item].hex ?? "000000")
+        vc.colorSelected = color
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 
