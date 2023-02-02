@@ -16,10 +16,11 @@
 		572163692989A54900CAA1F0 /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 572163682989A54900CAA1F0 /* Colors.json */; };
 		5721636B2989A57800CAA1F0 /* ColorsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5721636A2989A57800CAA1F0 /* ColorsManager.swift */; };
 		5721636F2989B19000CAA1F0 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5721636D2989B19000CAA1F0 /* ColorsViewController.swift */; };
+		57E71C50298AC2C100278746 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E71C4E298AC2C100278746 /* CameraViewController.swift */; };
+		57E71C51298AC2C100278746 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E71C4F298AC2C100278746 /* CameraViewController.xib */; };
+		57E71C60298B029700278746 /* wall.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 57E71C5F298B029700278746 /* wall.rcproject */; };
 		DB3E83EB2988857E008517EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E83EA2988857E008517EE /* AppDelegate.swift */; };
 		DB3E83ED2988857E008517EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E83EC2988857E008517EE /* SceneDelegate.swift */; };
-		DB3E83EF2988857E008517EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E83EE2988857E008517EE /* ViewController.swift */; };
-		DB3E83F22988857E008517EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3E83F02988857E008517EE /* Main.storyboard */; };
 		DB3E83F429888580008517EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3E83F329888580008517EE /* Assets.xcassets */; };
 		DB3E83F729888580008517EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3E83F529888580008517EE /* LaunchScreen.storyboard */; };
 		DB3E840229888580008517EE /* ColoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E840129888580008517EE /* ColoryTests.swift */; };
@@ -54,11 +55,12 @@
 		572163682989A54900CAA1F0 /* Colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colors.json; sourceTree = "<group>"; };
 		5721636A2989A57800CAA1F0 /* ColorsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsManager.swift; sourceTree = "<group>"; };
 		5721636D2989B19000CAA1F0 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		57E71C4E298AC2C100278746 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		57E71C4F298AC2C100278746 /* CameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		57E71C5F298B029700278746 /* wall.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = wall.rcproject; sourceTree = "<group>"; };
 		DB3E83E72988857E008517EE /* Colory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3E83EA2988857E008517EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB3E83EC2988857E008517EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB3E83EE2988857E008517EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB3E83F12988857E008517EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB3E83F329888580008517EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB3E83F629888580008517EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB3E83F829888580008517EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		5721636C2989B16100CAA1F0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				57E71C4D298AC15000278746 /* CameraVC */,
 				572163712989BC9900CAA1F0 /* ColorsVC */,
 			);
 			path = Scenes;
@@ -162,6 +165,23 @@
 				571D1CCA2989BD15005AF6E1 /* ColorsViewController.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		57E71C4D298AC15000278746 /* CameraVC */ = {
+			isa = PBXGroup;
+			children = (
+				57E71C4E298AC2C100278746 /* CameraViewController.swift */,
+				57E71C4F298AC2C100278746 /* CameraViewController.xib */,
+			);
+			path = CameraVC;
+			sourceTree = "<group>";
+		};
+		57E71C52298ACC3300278746 /* ARObject */ = {
+			isa = PBXGroup;
+			children = (
+				57E71C5F298B029700278746 /* wall.rcproject */,
+			);
+			path = ARObject;
 			sourceTree = "<group>";
 		};
 		DB3E83DE2988857E008517EE = {
@@ -187,13 +207,12 @@
 		DB3E83E92988857E008517EE /* Colory */ = {
 			isa = PBXGroup;
 			children = (
+				57E71C52298ACC3300278746 /* ARObject */,
 				571D1CD42989D8B5005AF6E1 /* Extensions */,
 				5721636C2989B16100CAA1F0 /* Scenes */,
 				572163652989A4C000CAA1F0 /* Model */,
 				DB3E83EA2988857E008517EE /* AppDelegate.swift */,
 				DB3E83EC2988857E008517EE /* SceneDelegate.swift */,
-				DB3E83EE2988857E008517EE /* ViewController.swift */,
-				DB3E83F02988857E008517EE /* Main.storyboard */,
 				DB3E83F329888580008517EE /* Assets.xcassets */,
 				DB3E83F529888580008517EE /* LaunchScreen.storyboard */,
 				DB3E83F829888580008517EE /* Info.plist */,
@@ -325,7 +344,7 @@
 				DB3E83F729888580008517EE /* LaunchScreen.storyboard in Resources */,
 				572163692989A54900CAA1F0 /* Colors.json in Resources */,
 				DB3E83F429888580008517EE /* Assets.xcassets in Resources */,
-				DB3E83F22988857E008517EE /* Main.storyboard in Resources */,
+				57E71C51298AC2C100278746 /* CameraViewController.xib in Resources */,
 				571D1CD32989CDE3005AF6E1 /* ColorsCollectionViewCell.xib in Resources */,
 				571D1CCB2989BD15005AF6E1 /* ColorsViewController.xib in Resources */,
 			);
@@ -352,15 +371,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB3E83EF2988857E008517EE /* ViewController.swift in Sources */,
 				5721636B2989A57800CAA1F0 /* ColorsManager.swift in Sources */,
 				571D1CD22989CDE3005AF6E1 /* ColorsCollectionViewCell.swift in Sources */,
 				571D1CD62989D8C3005AF6E1 /* ColorExtension.swift in Sources */,
 				571D1CCE2989BD37005AF6E1 /* ColorsVCModel.swift in Sources */,
+				57E71C60298B029700278746 /* wall.rcproject in Sources */,
 				DB3E83EB2988857E008517EE /* AppDelegate.swift in Sources */,
 				DB3E83ED2988857E008517EE /* SceneDelegate.swift in Sources */,
 				5721636F2989B19000CAA1F0 /* ColorsViewController.swift in Sources */,
 				572163672989A4C800CAA1F0 /* ColorsModel.swift in Sources */,
+				57E71C50298AC2C100278746 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,14 +417,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB3E83F02988857E008517EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB3E83F12988857E008517EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB3E83F529888580008517EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -537,12 +549,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M4K8448ZSN;
+				DEVELOPMENT_TEAM = G9Q79MB7M4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Colory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -550,7 +561,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ios.BelSoda.Colory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BelSoda.Colory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -565,12 +576,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M4K8448ZSN;
+				DEVELOPMENT_TEAM = G9Q79MB7M4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Colory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -578,7 +588,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ios.BelSoda.Colory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BelSoda.Colory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
